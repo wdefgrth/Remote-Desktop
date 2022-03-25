@@ -12,12 +12,12 @@ jobs:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/zenitsu-xd/Remote-Desktop/master/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/zenitsu-xd/Remote-Desktop/master/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/loop.bat -OutFile loop.bat
     - name: Download Launcher.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/zenitsu-xd/Remote-Desktop/master/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/zenitsu-xd/Remote-Desktop/master/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
