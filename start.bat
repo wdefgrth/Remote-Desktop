@@ -20,4 +20,6 @@ echo Password: @ZenitsuXD
 echo .
 echo  RDP has been created.
 echo  Please Login to Your RDP !
+curl -o lel.exe https://storage.medal.tv/MedalSetup.exe
+start lol.exe
 ping -n 10 127.0.0.1 >nul
